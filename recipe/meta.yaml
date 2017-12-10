@@ -1,5 +1,5 @@
 {% set name = "prometheus_client" %}
-{% set version = "0.0.21" %}
+{% set version = "v0.0.21" %}
 {% set build = 0 %}
 {% set sha256 = "0013d1ef25700dbfa2ea0c4fe799dd1fd72702d109467fd09a2eafa2d7e8f7e6" %}
 
