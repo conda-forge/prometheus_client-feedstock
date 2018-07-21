@@ -14,14 +14,15 @@ Summary: Python client for the Prometheus monitoring system.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/prometheus_client-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/prometheus_client-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/prometheus_client-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/prometheus_client-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/prometheus_client-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/prometheus-client-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/prometheus_client-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/prometheus_client-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/prometheus_client/badges/version.svg)](https://anaconda.org/conda-forge/prometheus_client)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/prometheus_client/badges/downloads.svg)](https://anaconda.org/conda-forge/prometheus_client)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-prometheus_client-green.svg)](https://anaconda.org/conda-forge/prometheus_client) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/prometheus_client.svg)](https://anaconda.org/conda-forge/prometheus_client) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/prometheus_client.svg)](https://anaconda.org/conda-forge/prometheus_client) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/prometheus_client.svg)](https://anaconda.org/conda-forge/prometheus_client) |
 
 Installing prometheus_client
 ============================
