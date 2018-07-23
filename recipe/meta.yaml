@@ -1,7 +1,7 @@
 {% set name = "prometheus_client" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 {% set build = 0 %}
-{% set sha256 = "d270837133c3e808ac66a4f5f9ae1b671296c171b23d48a509cfa38c7017376d" %}
+{% set sha256 = "adc3c7dbd474850d789d70ad53c84bdefda59bc700067abf4fa32323f3cabd4a" %}
 
 package:
   name: {{ name }}
@@ -14,12 +14,13 @@ source:
 
 build:
   number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
-
+  noarch: python
+  script: python -m pip install --no-deps --ignore-installed .
+  
 requirements:
-  build:
+  host:
     - python
-    - setuptools
+    - pip
 
   run:
     - python
