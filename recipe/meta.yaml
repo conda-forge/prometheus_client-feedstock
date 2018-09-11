@@ -19,13 +19,11 @@ requirements:
     - pip
   run:
     - python
-    - twisted
 
 test:
   imports:
     - prometheus_client
     - prometheus_client.bridge
-    - prometheus_client.twisted
 
 about:
   home: https://github.com/prometheus/client_python
@@ -38,3 +36,4 @@ extra:
   recipe-maintainers:
     - jessicaaustin
     - kwilcox
+    - ocefpaf
