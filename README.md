@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About prometheus_client
 =======================
 
@@ -18,8 +14,15 @@ Summary: Python client for the Prometheus monitoring system
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/prometheus_client-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/prometheus_client-feedstock)
+
+<table><tr><td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5967&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/prometheus_client-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
