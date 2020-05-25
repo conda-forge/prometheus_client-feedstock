@@ -11,7 +11,8 @@ source:
 build:
   number: 0
   noarch: python
-  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
+  script: {{ PYTHON }} -m pip install . -vv
+
 requirements:
   host:
     - python
@@ -23,10 +24,14 @@ test:
   imports:
     - prometheus_client
     - prometheus_client.bridge
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/prometheus/client_python
-  license: Apache 2.0
+  license: Apache-2.0
   summary: Python client for the Prometheus monitoring system
   license_family: Apache
   license_file: LICENSE
