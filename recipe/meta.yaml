@@ -1,4 +1,4 @@
-{% set version = "0.13.0" %}
+{% set version = "0.13.1" %}
 
 package:
   name: prometheus_client
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/prometheus/client_python/archive/v{{ version }}.tar.gz
-  sha256: 65124dce0acc17907f6ae86d64cc18e404640ae08e7a795b20fcbc13eb2b0c2f
+  sha256: 52d68963764f94f9c6a131d17c7c74b82d45f871c809f7bbbc385cb3602ca180
 
 build:
   number: 0
