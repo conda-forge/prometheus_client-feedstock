@@ -1,11 +1,11 @@
-About prometheus_client
-=======================
+About prometheus_client-feedstock
+=================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/prometheus_client-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/prometheus/client_python
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/prometheus_client-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python client for the Prometheus monitoring system
 
