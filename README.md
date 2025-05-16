@@ -27,7 +27,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-prometheus_client-green.svg)](https://anaconda.org/conda-forge/prometheus_client) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/prometheus_client.svg)](https://anaconda.org/conda-forge/prometheus_client) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/prometheus_client.svg)](https://anaconda.org/conda-forge/prometheus_client) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/prometheus_client.svg)](https://anaconda.org/conda-forge/prometheus_client) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-prometheus__client-green.svg)](https://anaconda.org/conda-forge/prometheus_client) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/prometheus_client.svg)](https://anaconda.org/conda-forge/prometheus_client) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/prometheus_client.svg)](https://anaconda.org/conda-forge/prometheus_client) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/prometheus_client.svg)](https://anaconda.org/conda-forge/prometheus_client) |
 
 Installing prometheus_client
 ============================
