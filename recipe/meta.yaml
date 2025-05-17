@@ -1,5 +1,5 @@
 {% set name = "prometheus_client" %}
-{% set version = "0.21.1" %}
+{% set version = "0.22.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/prometheus_client-{{ version }}.tar.gz
-  sha256: 252505a722ac04b0456be05c05f75f45d760c2911ffc45f2a06bcaed9f3ae3fb
+  sha256: 18da1d2241ac2d10c8d2110f13eedcd5c7c0c8af18c926e8731f04fc10cd575c
 
 build:
   noarch: python
